@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+
+    <RadioGroup
+        android:id="@+id/rg_tab"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#8888"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+
+        >
+        
+        <RadioButton
+            android:id="@+id/rb_anli_main"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="案例"
+            android:drawableTop="@drawable/tab_anli_select"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_tuku_main"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="图库"
+            android:drawableTop="@drawable/tab_anli_select"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_wenda_main"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="问答"
+            android:drawableTop="@drawable/tab_anli_select"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_faxian_main"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="发现"
+            android:drawableTop="@drawable/tab_anli_select"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_wode_main"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="我的"
+            android:drawableTop="@drawable/tab_anli_select"
+            />
+
+
+
+   </RadioGroup>
+</RelativeLayout>
