@@ -10,6 +10,7 @@ import fragment.MapDepotFragment;
 
 public class MainActivity extends FragmentActivity implements RadioGroup.OnCheckedChangeListener{
     private RadioGroup radioGroup;
+    String msg = "sssss";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
